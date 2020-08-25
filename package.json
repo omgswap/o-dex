@@ -1,10 +1,11 @@
 {
   "name": "@qfinex/o-dex",
   "version": "1.2.1",
-  "description": "",
+  "description": "Decentralize Trading Exchange",
   "main": "src/index.js",
   "private": true,
   "sideEffects": false,
+  "homepage": "https://odex.link",
   "license": "GPL-v3",
   "engines": {
     "node": "12"
