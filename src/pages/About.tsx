@@ -44,23 +44,23 @@ const About: React.FC = () => {
       <p>
         <strong>{CONFIG.name}</strong> is an Open Source interface for{' '}
         <a target="_blank" rel="noopener noreferrer" href="https://docs.gnosis.io/protocol">
-          Gnosis Protocol
+          Ǒmega Protocol
         </a>
         .<br />
         <div id="code-link">
           Check out the{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gnosis/dex-react">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-react">
             Source Code
           </a>{' '}
           and{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gnosis/dex-react/releases">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/o-dex/releases">
             Releases
           </a>
           .
         </div>
       </p>
       <p>
-        <strong>Gnosis Protocol</strong> is a fully permissionless DEX that enables ring trades to maximize liquidity.
+        <strong>Ǒmega Protocol</strong> is a fully permissionless DEX that enables ring trades to maximize liquidity.
         <a target="_blank" rel="noopener noreferrer" href="https://docs.gnosis.io/protocol">
           Read more here
         </a>
@@ -70,7 +70,7 @@ const About: React.FC = () => {
       <ul>
         <li>
           {CONFIG.name}:&nbsp;
-          <a target="_blank" rel="noopener noreferrer" href={'https://github.com/gnosis/dex-react/tree/v' + VERSION}>
+          <a target="_blank" rel="noopener noreferrer" href={'https://github.com/omgswap/o-dex/tree/v' + VERSION}>
             v{VERSION}
           </a>{' '}
         </li>
@@ -79,7 +79,7 @@ const About: React.FC = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href={'https://github.com/gnosis/dex-contracts/tree/v' + CONTRACT_VERSION}
+            href={'https://github.com/omgswap/o-dex/tree/v' + CONTRACT_VERSION}
           >
             v{CONTRACT_VERSION}
           </a>{' '}
@@ -90,14 +90,14 @@ const About: React.FC = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href={'https://github.com/gnosis/dex-js/tree/v' + DEX_JS_VERSION}
+            href={'https://github.com/omgswap/o-dex/tree/v' + DEX_JS_VERSION}
           >
             v{DEX_JS_VERSION}
           </a>
         </li>
       </ul>
 
-      <h2>Learn more about Gnosis Protocol</h2>
+      <h2>Learn more about Ǒmega Protocol</h2>
       <ul>
         <li>
           Developer portal:{' '}
@@ -107,7 +107,7 @@ const About: React.FC = () => {
         </li>
         <li>
           Smart Contracts:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gnosis/dex-contracts">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-contracts">
             @gnosis/dex-contracts
           </a>
         </li>
@@ -117,7 +117,7 @@ const About: React.FC = () => {
       <ul>
         <li>
           CLI <small>(Command Line Interface)</small>:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gnosis/dex-cli">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-cli">
             @gnosis/dex-cli
           </a>
         </li>
@@ -130,34 +130,34 @@ const About: React.FC = () => {
         <li>
           Protocol info:{' '}
           <a target="_blank" rel="noopener noreferrer" href="https://duneanalytics.com/gnosisprotocol">
-            Dune analytics: Gnosis Protocol
+            Dune analytics: Ǒmega Protocol
           </a>
         </li>
 
         <li>
           Open Solver:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gnosis/dex-open-solver">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-open-solver">
             @gnosis/dex-open-solver
           </a>
         </li>
 
         <li>
           Telegram bot:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gnosis/dex-telegram">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-telegram">
             @gnosis/dex-telegram
           </a>
         </li>
 
         <li>
           Visualization tools:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gnosis/dex-visualization-tools">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-visualization-tools">
             @gnosis/dex-visualization-tools
           </a>
         </li>
 
         <li>
           Price Estimator:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gnosis/dex-price-estimator">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-price-estimator">
             @gnosis/dex-price-estimator
           </a>
         </li>

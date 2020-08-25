@@ -144,19 +144,19 @@ const Footer: React.FC = () => {
       </FooterLinks>
       {/* VERSION */}
       <div className="version">
-        Web{' '}
-        <a target="_blank" rel="noopener noreferrer" href={'https://github.com/gnosis/dex-react/tree/v' + VERSION}>
+        O-DEX | Web{' '}
+        <a target="_blank" rel="noopener noreferrer" href={'https://github.com/omgswap/o-dex' + VERSION}>
           v{VERSION}
         </a>{' '}
         -{' '}
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/gnosis/dex-react/wiki/App-Ids-for-Forks">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/o-dex">
           App Id: {CONFIG.appId}
         </a>{' '}
         - Contracts{' '}
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href={'https://github.com/gnosis/dex-contracts/tree/v' + CONTRACT_VERSION}
+          href={'https://github.com/omgswap/o-dex' + CONTRACT_VERSION}
         >
           v{CONTRACT_VERSION}
         </a>

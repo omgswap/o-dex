@@ -150,7 +150,7 @@ export const STORAGE_KEY_DISABLED_TOKENS_ADDRESSES = 'disabledTokens'
 
 export const TRADES_LOCAL_STORAGE_KEY = 'TRADES_PER_ACCOUNT'
 
-const LIQUIDITY_TOKEN_LIST_VALUES = process.env.LIQUIDITY_TOKEN_LIST || 'USDT,TUSD,USDC,PAX,GUSD,DAI,sUSD'
+const LIQUIDITY_TOKEN_LIST_VALUES = process.env.LIQUIDITY_TOKEN_LIST || 'USDT,TUSD,USDC,PAX,GUSD,DAI,sUSD, pDAI, USDz'
 export const LIQUIDITY_TOKEN_LIST = new Set(LIQUIDITY_TOKEN_LIST_VALUES.split(',').map(symbol => symbol.trim()))
 export const INPUT_PRECISION_SIZE = 6
 export const VALID_UNTIL_DEFAULT = '2880'
@@ -170,7 +170,7 @@ export const SLIPPAGE_MAP = new Map([
   ['0.5', true],
   ['1', false],
 ])
-export const DEFAULT_SUGGESTED_SLIPPAGE = '0.5'
+export const DEFAULT_SUGGESTED_SLIPPAGE = '0.75'
 // Delay disabling loading indicators, since in a normal workflow, when a transaction is mined, the spinner is stopped,
 // however, the new state, that flows top down once a bock is mined, can have a small delayed
 // This delay mitigates the strange effect of stopping the loading before the data is updated

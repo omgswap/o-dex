@@ -21,12 +21,8 @@
     "verify": "npm run lint && npm run test",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run verify"
-    }
-  },
-  "author": "",
+ 
+  "author": "OMEGA PROTOCOL LTD.",
   "dependencies": {
     "@amcharts/amcharts4": "^4.9.12",
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
