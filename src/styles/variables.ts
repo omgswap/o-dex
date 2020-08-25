@@ -15,7 +15,7 @@ const LightColors = `
   // Background
   --color-background-lighter: #f7f7f7;
   --color-background-darker: #EDF2F7;
-  --color-background: #EDF2F7;
+  --color-background: #F2F2FF;
   --color-background-pageWrapper: #fff;
   --color-background-actionCards: #bbfdbb;
   --color-background-highlighted: #fcfde0;
@@ -27,20 +27,20 @@ const LightColors = `
   --color-background-input-lighter: #ffffff;
   --color-background-validation-warning: #fff0eb;
   --color-background-row-hover: #deeeff;
-  --color-background-CTA: #218DFF;
-  --color-background-selection: #218DFF;
-  --color-background-button-hover: #0B66C6;
+  --color-background-CTA: #727FFF;
+  --color-background-selection: #727FFF;
+  --color-background-button-hover: #5868ff;
   --color-background-button-disabled-hover: #2772c3;
-  --color-background-balance-button-hover: #218DFF;
+  --color-background-balance-button-hover: #727FFF;
 
   // Borders
   --color-border: transparent;
 
   // Text
-  --color-text-primary: #456483;
+  --color-text-primary: #424779;
   --color-text-secondary: #9FB4C9;
-  --color-text-active: #218DFF;
-  --color-text-alternate: #456483;
+  --color-text-active: #727FFF;
+  --color-text-alternate: #424779;
   --color-text-CTA: #fff;
   --color-text-selection: #fff;
   --color-text-button-hover: #fff;
@@ -57,14 +57,14 @@ const LightColors = `
   --color-background-banner: #DFE6EF;
   --color-text-wallet: #000;
   --color-text-deposit-header: #000000;
-  --color-background-nav-active: #DFE6EF;
+  --color-background-nav-active: #dfe6ef;
   --color-background-modali: #2f3e4e80;
   --color-text-modali: #526877;
 
   // SVGs
   --color-svg-deposit: #000;
   --color-svg-withdraw: #fff;
-  --color-svg-switcher: #476481;
+  --color-svg-switcher: #c1c3d3;
 
   // Shadow
   --shadow-color: #00000047;
@@ -78,33 +78,33 @@ const LightColors = `
 const DarkColors = `
   // Background
   --color-background-lighter: #f7f7f7;
-  --color-background: #2e2e2e;
-  --color-background-pageWrapper: #181a1b;
+  --color-background: #222732;
+  --color-background-pageWrapper: #16171e;
   --color-background-actionCards: #0269025c;
   --color-background-highlighted: #3f4104;
-  --color-background-selected: #d9d9d9;
+  --color-background-selected: #495064;
   --color-background-selected-darker: #b6b6b6;
-  --color-background-selected-dark: #2a2d2f;
+  --color-background-selected-dark: #232733;
   --color-background-progressBar: #4338b5;
-  --color-background-input: #2a2d2f;
+  --color-background-input: #232733;
   --color-background-input-lighter: #404040;
   --color-background-validation-warning: #4338b5;
   --color-background-row-hover: #09233e;
-  --color-background-CTA: #2e2e2e;
-  --color-background-selection: #181a1b;
-  --color-background-button-hover: #0B66C6;
+  --color-background-CTA: #222732;
+  --color-background-selection: #16171e;
+  --color-background-button-hover: #5868ff;
   --color-background-button-disabled-hover: #2772c3;
-  --color-background-balance-button-hover: #0B66C6;
+  --color-background-balance-button-hover: #5868ff;
 
   // Borders
   --color-border: #262626;
 
   // Text
-  --color-text-primary: #a1c3e4;
-  --color-text-secondary: #545454;
-  --color-text-active: #218DFF;
-  --color-text-CTA: #218DFF;
-  --color-text-selection: #218DFF;
+  --color-text-primary: #e5e7ff;
+  --color-text-secondary: #c6c7d9;
+  --color-text-active: #727FFF;
+  --color-text-CTA: #727FFF;
+  --color-text-selection: #727FFF;
   --color-text-button-hover: #e9e9f0;
 
   // Buttons
@@ -113,7 +113,7 @@ const DarkColors = `
   --color-button-disabled: #3d4043;
   --color-button-danger: #9c1818;
   --color-button-secondary: #696969;
-  --color-modali-close: #218DFF;
+  --color-modali-close: #727FFF;
 
   // Components
   --color-background-banner: #252729;
@@ -121,9 +121,9 @@ const DarkColors = `
   --color-background-nav-active: #404040;
 
   // SVGs
-  --color-svg-deposit: #218DFF;
+  --color-svg-deposit: #727FFF;
   --color-svg-withdraw: #000;
-  --color-svg-switcher: #218DFF;
+  --color-svg-switcher: #727FFF;
 
   // Shadow
   --shadow-color: #00000047;
