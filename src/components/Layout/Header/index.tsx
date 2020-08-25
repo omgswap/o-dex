@@ -4,6 +4,7 @@ import styled from 'styled-components'
 // utils, const
 import { formatSeconds, dateToBatchId } from 'utils'
 import { MEDIA } from 'const'
+import Logo  from 'assets/img/odex-logo.svg'
 
 // Components
 import UserWallet from 'components/UserWallet'
@@ -113,6 +114,7 @@ const Header: React.FC<HeaderProps> = ({ navigation: initialState }: HeaderProps
           {CONFIG.name}
         </NavLink> */}
         <TopWrapper>
+          <img src={Logo} alt="O-DEX" />
           {/* USER WALLET */}
           <UserWallet />
           {/* Global Batch Countdown */}

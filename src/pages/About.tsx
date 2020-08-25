@@ -43,13 +43,13 @@ const About: React.FC = () => {
       <h1>About {CONFIG.name}</h1>
       <p>
         <strong>{CONFIG.name}</strong> is an Open Source interface for{' '}
-        <a target="_blank" rel="noopener noreferrer" href="https://docs.gnosis.io/protocol">
-          Ǒmega Protocol
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/o-dex">
+          Omega Protocol
         </a>
         .<br />
         <div id="code-link">
           Check out the{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-react">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/o-dex">
             Source Code
           </a>{' '}
           and{' '}
@@ -60,8 +60,8 @@ const About: React.FC = () => {
         </div>
       </p>
       <p>
-        <strong>Ǒmega Protocol</strong> is a fully permissionless DEX that enables ring trades to maximize liquidity.
-        <a target="_blank" rel="noopener noreferrer" href="https://docs.gnosis.io/protocol">
+        <strong>Omega Protocol</strong> is a fully permissionless DEX that enables ring trades to maximize liquidity.
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/o-dex">
           Read more here
         </a>
       </p>
@@ -70,95 +70,82 @@ const About: React.FC = () => {
       <ul>
         <li>
           {CONFIG.name}:&nbsp;
-          <a target="_blank" rel="noopener noreferrer" href={'https://github.com/omgswap/o-dex/tree/v' + VERSION}>
             v{VERSION}
-          </a>{' '}
+          {' '}
         </li>
         <li>
           Smart Contract:&nbsp;
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={'https://github.com/omgswap/o-dex/tree/v' + CONTRACT_VERSION}
-          >
-            v{CONTRACT_VERSION}
-          </a>{' '}
+            v{CONTRACT_VERSION}{' '}
           <span className="contract-addresses">({ContractAddresses})</span>
         </li>
         <li>
           dex-js library:&nbsp;
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={'https://github.com/omgswap/o-dex/tree/v' + DEX_JS_VERSION}
-          >
             v{DEX_JS_VERSION}
-          </a>
         </li>
       </ul>
 
-      <h2>Learn more about Ǒmega Protocol</h2>
+      <h2>Learn more about Omega Protocol</h2>
       <ul>
         <li>
           Developer portal:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://docs.gnosis.io/protocol">
-            https://docs.gnosis.io/protocol
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/o-dex">
+            https://github.com/omgswap/o-dex
           </a>
         </li>
         <li>
           Smart Contracts:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-contracts">
-            @gnosis/dex-contracts
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/o-dex">
+            dex-contracts
           </a>
         </li>
       </ul>
 
-      <h2>Tools</h2>
+      <h2>Useful Links</h2>
       <ul>
         <li>
-          CLI <small>(Command Line Interface)</small>:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-cli">
-            @gnosis/dex-cli
+          Website <small>(Main Site)</small>:{' '}
+          <a target="_blank" rel="noopener noreferrer" href="https://omgswap.in">
+            Omega Protocol
           </a>
         </li>
         <li>
-          Subgraph API:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://thegraph.com/explorer/subgraph/gnosis/protocol">
-            https://thegraph.com/explorer/subgraph/gnosis/protocol
+          DEX:{' '}
+          <a target="_blank" rel="noopener noreferrer" href="https://odex.link">
+            ODEX
           </a>
         </li>
         <li>
-          Protocol info:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://duneanalytics.com/gnosisprotocol">
-            Dune analytics: Ǒmega Protocol
-          </a>
-        </li>
-
-        <li>
-          Open Solver:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-open-solver">
-            @gnosis/dex-open-solver
+          Swap:{' '}
+          <a target="_blank" rel="noopener noreferrer" href="https://omgswap.com">
+            OMGSwap
           </a>
         </li>
 
         <li>
-          Telegram bot:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-telegram">
-            @gnosis/dex-telegram
+            Info:{' '}
+          <a target="_blank" rel="noopener noreferrer" href="https://omgswap.link">
+            OMGSwap.Link
           </a>
         </li>
 
         <li>
-          Visualization tools:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-visualization-tools">
-            @gnosis/dex-visualization-tools
+          Twitter:{' '}
+          <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/omegadefi">
+            @omegadefi
           </a>
         </li>
 
         <li>
-          Price Estimator:{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/dex-price-estimator">
-            @gnosis/dex-price-estimator
+          Telegram:{' '}
+          <a target="_blank" rel="noopener noreferrer" href="https://t.me/omegadefi">
+            @omegadefi
+          </a>
+        </li>
+
+        <li>
+          News:{' '}
+          <a target="_blank" rel="noopener noreferrer" href="https://news.omgswap.in">
+            News
           </a>
         </li>
       </ul>

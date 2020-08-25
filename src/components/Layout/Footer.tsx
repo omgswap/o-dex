@@ -144,17 +144,20 @@ const Footer: React.FC = () => {
       </FooterLinks>
       {/* VERSION */}
       <div className="version">
-        O-DEX | Web{' '}
-        <a target="_blank" rel="noopener noreferrer" href={'https://github.com/omgswap/o-dex' + VERSION}>
+        {' '}
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/o-dex/">
           v{VERSION}
         </a>{' '}
         -{' '}
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/omgswap/o-dex">
-          App Id: {CONFIG.appId}
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/omegadefi">
+          Twitter
         </a>{' '}
-        - Contracts{' '}
-        <a target="_blank" rel="noopener noreferrer" href={'https://github.com/omgswap/o-dex' + CONTRACT_VERSION} >
-          v{CONTRACT_VERSION}
+        -{' '}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://t.me/omegadefi">
+          Telegram
         </a>
       </div>
       <VerifiedContractLink>
