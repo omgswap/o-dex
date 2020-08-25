@@ -153,11 +153,7 @@ const Footer: React.FC = () => {
           App Id: {CONFIG.appId}
         </a>{' '}
         - Contracts{' '}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href={'https://github.com/omgswap/o-dex' + CONTRACT_VERSION}
-        >
+        <a target="_blank" rel="noopener noreferrer" href={'https://github.com/omgswap/o-dex' + CONTRACT_VERSION} >
           v{CONTRACT_VERSION}
         </a>
       </div>

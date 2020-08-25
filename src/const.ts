@@ -46,11 +46,7 @@ export const ETHER_PNG =
 
 export const UNLIMITED_ORDER_AMOUNT_BIGNUMBER = new BigNumber(UNLIMITED_ORDER_AMOUNT.toString())
 export const DEFAULT_ORDER_DURATION = 6 // every batch takes 5min, we want it to be valid for 30min, ∴ 30/5 == 6
-
-
 export const BATCHES_TO_WAIT = 3
-
-
 export const DEFAULT_ORDERS_PAGE_SIZE = 50
 
 // UI constants
