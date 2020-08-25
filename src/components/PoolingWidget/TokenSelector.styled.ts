@@ -8,7 +8,7 @@ export const TokenSelectorWrapper = styled.div`
   height: 33.6rem;
   overflow-y: auto;
   border: 0.1rem solid var(--color-background-banner);
-  border-radius: 0.6rem;
+  border-radius: 2rem;
   margin: 0 0 0 auto;
   background: var(--color-background-pageWrapper);
 

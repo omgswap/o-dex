@@ -40,7 +40,7 @@ const TooltipInner = styled.div<{ $bgColor?: string }>`
   font-weight: var(--font-weight-normal);
   padding: 0.8rem 1rem;
   font-size: 1.2rem;
-  border-radius: 0.6rem;
+  border-radius: 2rem;
   letter-spacing: 0.03rem;
   z-index: 9999;
   line-height: 1.4;

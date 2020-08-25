@@ -167,7 +167,7 @@ export const StepButtonsWrapper = styled.div`
   > button,
   > a {
     margin: 0 1.6rem;
-    border-radius: 0.6rem;
+    border-radius: 2rem;
     outline: 0;
     height: 3.6rem;
     box-sizing: border-box;
@@ -211,7 +211,7 @@ export const StepButtonsWrapper = styled.div`
 
   > button:last-of-type:not(#backButton),
   > a.finish {
-    border-radius: 0.6rem;
+    border-radius: 2rem;
     min-width: 14rem;
     padding: 0 1.6rem;
     font-weight: var(--font-weight-bold);

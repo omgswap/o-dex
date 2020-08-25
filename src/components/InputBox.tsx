@@ -12,7 +12,7 @@ export const InputBox = styled.div`
     margin: 0;
     width: 100%;
     background: var(--color-background-input);
-    border-radius: 0.6rem 0.6rem 0 0;
+    border-radius: 1rem;;
     border: 0;
     font-size: 1.6rem;
     line-height: 1;

@@ -13,7 +13,7 @@ const SettingsButtonSubmit = styled.button`
   height: 3.6rem;
   letter-spacing: 0.03rem;
 
-  border-radius: 0.6rem;
+  border-radius: 2rem;
   padding: 0 1.6rem;
   text-transform: uppercase;
   font-size: 1.4rem;

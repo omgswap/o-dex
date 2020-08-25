@@ -16,7 +16,7 @@ const CardRowDrawer = styled.tr`
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 0.6rem;
+  border-radius: 2rem;
   background: var(--color-background-modali);
 
   // Inner td wrapper
@@ -198,7 +198,7 @@ export const CardTable = styled.table<{
       margin: 0;
     }
   }
-  
+
   > thead {
     position: sticky;
     z-index: 2;
@@ -236,7 +236,7 @@ export const CardTable = styled.table<{
       &:hover {
         background: var(--color-background-row-hover);
       }
-      
+
       &.highlight {
         background-color: var(--color-background-highlighted);
         border-bottom-color: #fbdf8f;
@@ -257,8 +257,8 @@ export const CardTable = styled.table<{
         text-align: left;
       }
     }
-  }  
-  
+  }
+
   // Table Header
   thead {
     // No styling for table header
@@ -278,20 +278,20 @@ export const CardTable = styled.table<{
         > svg {
           margin: 0 0 0.04rem 0.2rem;
         }
-      } 
+      }
     }
   }
-  
+
   tbody {
     flex: 1;
     display: flex;
     flex-flow: nowrap column;
-    
+
     font-size: 1.1rem;
     font-family: var(--font-mono);
     font-weight: var(--font-weight-regular);
     color: var(--color-text-primary);
-    
+
     letter-spacing: -0.085rem;
     line-height: 1.2;
 
@@ -310,7 +310,7 @@ export const CardTable = styled.table<{
             margin: 0.2rem 0;
             font-size: smaller;
             width: 100%;
-        
+
             > img {
               margin: 0 0 0.2rem 0.45rem;
             }
@@ -338,7 +338,7 @@ export const CardWidgetWrapper = styled(Widget)<{ $columns?: string }>`
   width: 100%;
   margin: 0 auto;
 
-  border-radius: 0.6rem;
+  border-radius: 2rem;
   font-size: 1.6rem;
   line-height: 1;
 
