@@ -27,7 +27,7 @@ name: Exchange for Decentralize Finance | O-DEX
 logoPath: './src/assets/img/logo.svg'
 
 # HTML template
-templatePath: './src/html/index.html'
+templatePath: './public/index.html'
 
 # Whitelisted tokens from Gnosis Contract retrieved from a smart contract
 tcr:
