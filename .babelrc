@@ -1,0 +1,33 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    [
+      "babel-plugin-styled-components",
+      {
+        "displayName": true,
+        "pure": true
+      }
+    ],
+    [
+      "transform-imports",
+      {
+        "@fortawesome/free-regular-svg-icons": {
+          "transform": "@fortawesome/free-regular-svg-icons/${member}",
+          "skipDefaultConversion": true
+        },
+        "@fortawesome/free-solid-svg-icons": {
+          "transform": "@fortawesome/free-solid-svg-icons/${member}",
+          "skipDefaultConversion": true
+        },
+        "@fortawesome/free-light-svg-icons": {
+          "transform": "@fortawesome/free-light-svg-icons/${member}",
+          "skipDefaultConversion": true
+        }
+      }
+    ],
+    "react-hot-loader/babel"
+  ]
+}
