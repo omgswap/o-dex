@@ -33,10 +33,27 @@ const TopWrapper = styled.div`
   flex-flow: row nowrap;
   width: 100%;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   @media ${MEDIA.mobile} {
+    justify-content: space-between;
+  }
+`
+
+const TopContent = styled.div`
+  margin: 1.25rem;
+  display: flex;
+  min-width: 0;
+  align-items: center;
+
+  @media ${MEDIA.mobile} {
+    margin: 0.75rem;
+    display: block;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: 0;
+    align-items: center;
     justify-content: space-between;
   }
 `
@@ -114,11 +131,15 @@ const Header: React.FC<HeaderProps> = ({ navigation: initialState }: HeaderProps
           {CONFIG.name}
         </NavLink> */}
         <TopWrapper>
-          <img src={Logo} alt="O-DEX" />
-          {/* USER WALLET */}
-          <UserWallet />
-          {/* Global Batch Countdown */}
-          <BatchCountDown />
+          <TopContent>
+            <img src={Logo} alt="O-DEX" />
+          </TopContent>
+            {/* USER WALLET */}
+          <TopContent>
+            <UserWallet />
+            {/* Global Batch Countdown */}
+            <BatchCountDown />
+          </TopContent>
         </TopWrapper>
         {/* HEADER LINKS */}
         <NavigationLinks
