@@ -193,7 +193,7 @@ const OrderValidityInputsWrapper = styled.div<{ $visible: boolean }>`
   }
 
   > span > button {
-    border-radius: 2rem;
+    border-radius: 1rem;
     min-width: 14rem;
     padding: 0 1.6rem;
     font-weight: var(--font-weight-bold);

@@ -16,14 +16,13 @@ export const HeaderWrapper = styled.header`
     width: 100%;
 
     @media ${MEDIA.mobile} {
-      padding: 0 1.2rem;
       box-sizing: border-box;
     }
   }
 
   ${UserWalletWrapper} {
     order: 1;
-    margin: 3.2rem 3rem 3.2rem 0;
+    margin: 1rem 3rem 1rem 0;
 
     @media ${MEDIA.mobile} {
       margin: 2rem 1rem 2rem 0;

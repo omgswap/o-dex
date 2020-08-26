@@ -16,7 +16,7 @@ const CardRowDrawer = styled.tr`
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 2rem;
+  border-radius: 1rem;
   background: var(--color-background-modali);
 
   // Inner td wrapper
@@ -338,7 +338,7 @@ export const CardWidgetWrapper = styled(Widget)<{ $columns?: string }>`
   width: 100%;
   margin: 0 auto;
 
-  border-radius: 2rem;
+  border-radius: 1rem;
   font-size: 1.6rem;
   line-height: 1;
 

@@ -8,7 +8,7 @@ import { useConnectWallet } from 'hooks/useConnectWallet'
 export const Wrapper = styled.div`
   background: var(--color-background-pageWrapper);
   box-shadow: var(--box-shadow-wrapper);
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 100%;
   min-height: 35rem;
   min-width: 55rem;

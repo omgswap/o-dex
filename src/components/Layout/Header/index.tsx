@@ -32,9 +32,10 @@ const TopWrapper = styled.div`
   display: flex;
   flex-flow: row nowrap;
   width: 100%;
-  margin: 0 auto;
+  margin-bottom: 2rem;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--color-background-pageWrapper);
 
   @media ${MEDIA.mobile} {
     justify-content: space-between;

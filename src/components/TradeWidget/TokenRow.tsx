@@ -130,7 +130,7 @@ const TokenEnable = styled.div`
   box-sizing: border-box;
   background: var(--color-background-row-hover);
   border: 0.1rem solid var(--color-text-active);
-  border-radius: 2rem;
+  border-radius: 1rem;
   cursor: pointer;
   transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 `

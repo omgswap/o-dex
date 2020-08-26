@@ -9,7 +9,7 @@ export const CreateStrategyWrapper = styled.div`
   padding: 0;
   box-sizing: border-box;
   background: var(--color-background);
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 0 1.6rem;
   box-sizing: border-box;
   font-size: inherit;
