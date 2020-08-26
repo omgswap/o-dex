@@ -21,15 +21,13 @@ const Wrapper = styled.footer`
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  padding: 2rem;
   text-align: center;
-  background: transparent;
+  background: var(--color-background-pageWrapper);
   font-weight: var(--font-weight-normal);
   font-size: 1.3rem;
   color: var(--color-text-primary);
   letter-spacing: -0.03rem;
-  max-width: 85rem;
-  margin: 0 auto;
   line-height: 1;
 
   @media ${MEDIA.mobile} {
@@ -44,7 +42,7 @@ const Wrapper = styled.footer`
     > a {
       text-decoration: none;
       color: inherit;
-      text-decoration: underline;
+      text-decoration: none;
       transition: color 0.2s ease-in-out;
     }
 
@@ -139,6 +137,10 @@ const Footer: React.FC = () => {
       <ThemeToggler />
       {/* LINKS */}
       <FooterLinks>
+      {' '}
+      <a target="_blank" rel="noopener noreferrer" href="https://news.omgswap.in">
+        News
+      </a>{' '}
         <Link to="/about">About{APP_NAME_ABOUT}</Link>
         <Link to="/faq">FAQ</Link>
       </FooterLinks>
