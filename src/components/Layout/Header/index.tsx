@@ -41,7 +41,6 @@ const TopWrapper = styled.div`
     justify-content: space-between;
   }
 `
-
 const TopContent = styled.div`
   margin: 1.25rem;
   display: flex;
@@ -56,6 +55,21 @@ const TopContent = styled.div`
     min-width: 0;
     align-items: center;
     justify-content: space-between;
+  }
+`
+
+const HeadLink = styled.div`
+  align-items: center;
+  margin: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+
+  @media ${MEDIA.mobile} {
+    margin: 1rem;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
   }
 `
 
@@ -89,12 +103,12 @@ const CountDownStyled = styled.div`
 const DevdocTooltip = (
   <HelpTooltipContainer>
     <p>
-      On Gnosis Protocol, orders placed on-chain are not immediately executed, but rather collected and aggregated to be
+      On Omega Protocol, orders placed on-chain are not immediately executed, but rather collected and aggregated to be
       settled in batches. These batch order settlements occur every 5 minutes consecutively.
     </p>
     <p>
       Learn more{' '}
-      <a href="https://docs.gnosis.io/protocol/docs/intro-batches" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/omgswap/o-dex" target="_blank" rel="noopener noreferrer">
         here
       </a>
       .
@@ -134,6 +148,16 @@ const Header: React.FC<HeaderProps> = ({ navigation: initialState }: HeaderProps
         <TopWrapper>
           <TopContent>
             <img src={Logo} alt="O-DEX" />
+            <HeadLink>
+              <a href="https://omgswap.com/" target="_blank" rel="noopener noreferrer">
+                OMGSwap
+              </a>
+            </HeadLink>
+            <HeadLink>
+              <a href="https://omgswap.link/" target="_blank" rel="noopener noreferrer">
+                OMGSwap Info
+              </a>
+            </HeadLink>
           </TopContent>
             {/* USER WALLET */}
           <TopContent>
