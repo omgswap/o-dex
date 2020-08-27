@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
   // Import font faces
   ${fontFace}
 
-  html, body {  
+  html, body {
     width: 100%;
     min-height: 100vh;
     min-width: 300px;
@@ -57,10 +57,10 @@ const GlobalStyles = createGlobalStyle`
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  a {   
-    text-decoration: underline;
+  a {
+    text-decoration: none;
     cursor: pointer;
-      &:link, 
+      &:link,
       &:visited {
         color: var(--color-text-active);
       }
@@ -155,16 +155,16 @@ const GlobalStyles = createGlobalStyle`
     margin: 0.4rem 0.85rem;
     width: 100%;
     line-height: 1;
-    
+
     &::placeholder {
       color: inherit;
       font-size: inherit;
     }
-    
+
     &:focus::placeholder {
       color: transparent;
     }
-    
+
     &[type=checkbox] {
       margin: 0 auto;
       background: transparent;
@@ -177,7 +177,7 @@ const GlobalStyles = createGlobalStyle`
       padding: 0;
       cursor: pointer;
       outline: 0;
-      
+
         &:checked {
           background: var(--color-text-active) url(${checkWhite}) no-repeat center/.85rem;
           border: 0.2rem solid transparent;
@@ -191,7 +191,7 @@ const GlobalStyles = createGlobalStyle`
       opacity: .8;
     }
   }
-  
+
   .noScroll {
     overflow: hidden;
   }
@@ -875,7 +875,7 @@ const GlobalStyles = createGlobalStyle`
     animation-name: Toastify__slideOutDown;
   }
   /* END Toastify custom styling */
-  
+
   // Web3Connect styling
   // SUUUUPER lame and hacky, but don't feel like changing the Web3Conect code base to allow style passing
   // or am i missing something?
@@ -887,7 +887,7 @@ const GlobalStyles = createGlobalStyle`
       flex-flow: column wrap;
       margin: 0;
       padding: 0 1.6rem 1.6rem;
-      
+
       &::before {
         content: "Connect A Wallet";
         width: 100%;
@@ -899,7 +899,7 @@ const GlobalStyles = createGlobalStyle`
         color: var(--color-text-primary);
         font-weight: var(--font-weight-bold);
       }
-    
+
     // Individual outer container
     > div {
       background: var(--color-background-pageWrapper);
@@ -910,7 +910,7 @@ const GlobalStyles = createGlobalStyle`
       flex: 1 1 100%;
       border: 0;
     }
-    
+
     // Individual inner container
     > div > div {
       background: var(--color-background-pageWrapper);
@@ -927,12 +927,12 @@ const GlobalStyles = createGlobalStyle`
       flex-flow: row nowrap;
       transition: border .2s ease-in-out;
       min-height: 5.6rem;
-      
+
         &:hover {
           border: 0.1rem solid var(--color-text-active);
         }
     }
-    
+
     // Provider image
     > div > div > div:nth-of-type(1) {
       background: 0;
@@ -948,7 +948,7 @@ const GlobalStyles = createGlobalStyle`
           object-fit: contain;
         }
     }
-    
+
     // Client name
     > div > div > div:nth-of-type(2) {
       font-size: 1.5rem;
@@ -957,7 +957,7 @@ const GlobalStyles = createGlobalStyle`
       margin: 0;
       color: var(--color-text-primary);
     }
-    
+
     // Client description
     > div > div > div:nth-of-type(3) {
       font-size: 1.5rem;
@@ -966,14 +966,14 @@ const GlobalStyles = createGlobalStyle`
     }
   }
   // End WEB3 connect
-  
+
   // Start WalletConnect Modal
   #walletconnect-qrcode-modal {
     .walletconnect-modal__headerLogo {
       max-width: 24rem;
       margin: 2.4rem auto;
     }
-    
+
     .walletconnect-qrcode__image {
       height: calc(100vh - 14rem);
       padding: 1rem;
@@ -1009,19 +1009,19 @@ const GlobalStyles = createGlobalStyle`
   }
 
   /* End hack */
-  
+
   .modali-open .modali-overlay {
     background-color: var(--color-background-modali);
     opacity: 1;
   }
-  
+
   .modali-open .modali-wrapper-centered .modali {
     background: var(--color-background-pageWrapper);
     box-shadow: 0 .2rem .4rem 0 rgba(0,0,0,0.14);
     border-radius: .6rem;
     border: 0;
     margin: 0 auto;
-    
+
     .modali-header {
       height: 5.6rem;
       padding: 0 1.6rem;
@@ -1037,13 +1037,13 @@ const GlobalStyles = createGlobalStyle`
       font-weight: var(--font-weight-regular);
       border-bottom: 0.1rem solid var(--color-background-banner);
     }
-    
+
     .modali-header .modali-title {
       font-size: inherit;
       font-weight: inherit;
       line-height: 1;
     }
-    
+
     .modali-header .modali-close-button {
       background: transparent;
       font-size: 4rem;
@@ -1053,19 +1053,19 @@ const GlobalStyles = createGlobalStyle`
       opacity: .5;
       padding: 0;
       margin: auto 0 auto auto;
-      
+
         &:hover {
           opacity: 1;
         }
     }
-    
+
     .modali-body {
       font-size: 1.4rem;
       line-height: 1.3;
       background: inherit;
       color: var(--color-text-primary);
     }
-    
+
     .modali-footer {
       margin: 1.6rem auto 0;
       height: 5.6rem;
@@ -1093,13 +1093,13 @@ const GlobalStyles = createGlobalStyle`
         color: var(--color-text-CTA);
         font-weight: var(--font-weight-bold);
         font-size: 1.4rem;
-        
+
         &:hover {
           background-color: var(--color-background-button-hover);
           color: var(--color-text-button-hover);
         }
       }
-      
+
       .modali-button.modali-button-default {
         border-radius: 0.6rem;
         min-width: 14rem;
@@ -1112,7 +1112,7 @@ const GlobalStyles = createGlobalStyle`
       }
     }
   }
-  
+
   // Heavier specification of the selector to ensure override from global.ts
   // Ideally take out the modali default injected styles and only load from our end.
   body.modali-open .modali.modali-size-large {
@@ -1128,11 +1128,11 @@ const GlobalStyles = createGlobalStyle`
         width: 100%;
       }
   }
-  
+
   body.modali-open .modali-wrapper-centered {
     top: 0!important;
   }
-  
+
   body.modali-open .modali-body-style {
     padding: 0;
   }

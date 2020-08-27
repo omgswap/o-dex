@@ -140,7 +140,7 @@ export const EtherImage = styled.img`
 
 export const CopyDiv = styled.div`
   background: #90ee90ad;
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 100%;
   font-size: 1.2rem;
   padding: 0.5rem;
@@ -160,7 +160,7 @@ export const UserWalletSlideWrapper = styled.div`
   background: var(--color-background-pageWrapper);
   width: 19.8rem;
   display: flex;
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 1.6rem;
   box-sizing: border-box;
   z-index: 10;

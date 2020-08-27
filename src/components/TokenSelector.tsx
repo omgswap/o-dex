@@ -51,7 +51,7 @@ const Wrapper = styled.div`
         bottom: 100%;
         background-color: inherit;
         width: 100%;
-        border-radius: 2rem;
+        border-radius: 1rem;
       }
 
       .header {
@@ -102,7 +102,7 @@ const Wrapper = styled.div`
           top: 0;
           left: 0;
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14);
-          border-radius: 2rem;
+          border-radius: 1rem;
           z-index: -1;
           width: 100%;
           height: 100%;
